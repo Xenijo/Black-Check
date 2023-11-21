@@ -1,5 +1,5 @@
 local Check = {}
-math.randomseed(os.time()) -- Seed the random number generator with the current time
+math.randomseed(os.time())
 
 function Check.IsBlack()
   local percentage = math.random(0, 100)
