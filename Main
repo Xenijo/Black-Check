@@ -1,0 +1,5 @@
+local Check = {}
+
+function Check:IsBlack() 
+return("You are "..math.random(1,100).."% Black")
+end
